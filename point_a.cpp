@@ -15,7 +15,6 @@ int countVowels(const string& str) {
 }
 
 int main() {
-    setlocale(LC_ALL, "Russian");
     string input;
     cout << "Введите строку: ";
     getline(cin, input); //считывает строку с пробелами
