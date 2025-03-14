@@ -16,10 +16,10 @@ int countVowels(const string& str) {
 
 int main() {
     string input;
-    cout << "Введите строку: ";
+    cout << "Enter the string:: ";
     getline(cin, input); //считывает строку с пробелами
     int vowelCount = countVowels(input);
-    cout << "Количество гласных букв в строке: " << vowelCount << endl;
+    cout << "Number of vowels in string: " << vowelCount << endl;
 
     return 0;
 }
